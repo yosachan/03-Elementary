@@ -6,7 +6,7 @@ html="""
 <html>
     <head>
         <meta charset="utf-8">
-        <title>キノコード
+        <title>ＸＸＸＸＸＸＸＸ
         </title>
     </head>
     <body>
@@ -24,7 +24,7 @@ print(parse_html.prettify())
 
 print("ここから本番")
 
-url = "https://kino-code.com/kinocollege_dx/"
+url = "https://www.xxxxxxxxxxx.com/"
 response = req.urlopen(url)
 
 parse_html = BeautifulSoup(response, "html.parser")
@@ -55,9 +55,9 @@ print(df_title_url)
 df_notnull = df_title_url.dropna(how="any")
 print(df_notnull)
 
-df_notnull["Title"].str.contains("講師")
+df_notnull["Title"].str.contains("ＸＸ")
 
-df_contain_python = df_notnull[df_notnull["Title"].str.contains("講師")]
+df_contain_python = df_notnull[df_notnull["Title"].str.contains("ＸＸ")]
 print(df_contain_python)
 
 df_contain_python.to_csv("output.csv")

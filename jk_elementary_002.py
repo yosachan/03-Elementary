@@ -13,7 +13,7 @@ browser.implicitly_wait(3)
 sleep(3)
 
 # ログインするサイトにアクセス
-url_login = "https://www.amidas.co.jp/mypage/login.php"
+url_login = "https://www.xxxxxxxxxx.com/"
 browser.get(url_login)
 
 sleep(1)
